@@ -29,8 +29,8 @@ contract Ballot {
     Proposal[] public proposals;
 
     // a state variable of startTime is added here
-    // it is initialized to 
-    uint startTime;
+    // and made public 
+    uint public startTime;
 
     // I created a modifier voteEnded
     // The require conditional is very useful in Solidity. 
